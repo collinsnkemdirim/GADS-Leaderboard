@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical"
+    tools:context="com.collinsnkemdirim.gadsleaderboard.SubmitFormActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:paddingEnd="9dp"
+            android:paddingStart="1dp"
+            android:shadowColor="@color/gray"
+            android:src="@drawable/ic_back_btn"
+            android:contentDescription="@string/back_button" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="55dp"
+            android:src="@drawable/gads_logo"
+            android:contentDescription="@string/gads_logo" />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/project_submission"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/orange"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/gradient_line"
+        android:src="@drawable/gradient_line" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingStart="10dp"
+        android:paddingTop="60dp"
+        android:paddingEnd="10dp">
+
+        <EditText
+            android:id="@+id/firstName_edTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:textStyle="bold"
+            android:ems="10"
+            android:padding="12dp"
+            android:hint="@string/first_name"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toStartOf="@+id/lastName_edTxt"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/lastName_edTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:hint="@string/last_name"
+            android:autofillHints=""
+            android:textStyle="bold"
+            android:ems="10"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/firstName_edTxt"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/email_edtTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:textStyle="bold"
+            android:hint="@string/email_address"
+            android:padding="12dp"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textEmailAddress"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/firstName_edTxt" />
+
+        <EditText
+            android:id="@+id/projectUrl_edTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:hint="@string/project_on_github_link"
+            android:background="@drawable/edit_text_background"
+            android:inputType="textUri"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/email_edtTxt"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/submit_form_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minWidth="140dp"
+            android:background="@drawable/form_submit"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/projectUrl_edTxt" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

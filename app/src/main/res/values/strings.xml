@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GADS LeaderBoard</string>
+    <string name="leader_board">LeaderBoard</string>// tabs name<string name="submit">Submit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skill_iq_trimmed">skill iq trimmed</string>
+    <string name="skills_leader_details">%1$d skills IQ Score, %2$s.</string>
+    <string name="top_learners_details">%1$d learning hours, %2$s.</string>
+    <string name="top_learners_images">top learners images</string>
+    <string name="top_learners">Learning Leaders</string>
+    <string name="skill_iq_leaders">Skill IQ Leaders</string>
+    <string name="network_error_message">Retry</string>
+    <string name="no_data_available">Retry</string>
+    <string name="back_button">back button</string>
+    <string name="gads_logo">gads logo</string>
+    <string name="project_submission">Project Submission</string>
+    <string name="gradient_line">gradient line</string>
+    <string name="first_name">First Name</string>
+    <string name="click_yes">Yes</string>
+    <string name="close_btn">close button</string>
+    <string name="submission_successful">Submission Successful</string>
+    <string name="submission_not_successful">Submission not Successful</string>
+    <string name="submitting">Please wait…</string>
+    <string name="are_you_sure_confirmation">Are you sure?</string>
+    <string name="fill_fields">Fill All fields</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="project_on_github_link">Project on GITHUB (link)</string>
+</resources>
