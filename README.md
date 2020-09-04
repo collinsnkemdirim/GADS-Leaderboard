@@ -13,18 +13,19 @@ I worked with:
  ---
  ## Screenshots
 
+
  | Screenshot 1     | Screenshot 2   |
 |------------|-------------|
-| ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/9-scaled.jpg) | ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/2-scaled.jpg) |
+| ![1](https://img.techpowerup.org/200904/9.jpg) | ![2](https://img.techpowerup.org/200904/2856.jpg) |
 
  | Screenshot 3     | Screenshot 4    |
 |------------|-------------|
-| ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/4-scaled.jpg) | ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/3-scaled.jpg) |
+| ![alt text](https://img.techpowerup.org/200904/3739.jpg) | ![alt text](https://img.techpowerup.org/200904/4762.jpg) |
 
 | Screenshot 5     | Screenshot 6    |
 |------------|-------------|
-| ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/10-scaled.jpg) | ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/7-scaled.jpg) |
+| ![alt text](https://img.techpowerup.org/200904/10416.jpg) | ![alt text](https://img.techpowerup.org/200904/7139.jpg) |
 
 | Screenshot 5     | Screenshot 6    |
 |------------|-------------|
-| ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/8-scaled.jpg) | ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/1-scaled.jpg) |
+| ![alt text](https://img.techpowerup.org/200904/8.jpg) | ![alt text](https://img.techpowerup.org/200904/1228.jpg) |
