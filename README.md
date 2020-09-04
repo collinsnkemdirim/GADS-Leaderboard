@@ -15,7 +15,7 @@ I worked with:
 
  | Screenshot 1     | Screenshot 2   |
 |------------|-------------|
-| ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/9-scaled.jpg) | ![alt text](https://www.techllyn.com/wp-content/uploads/2020/09/2-scaled.jpg) |
+| ![N|Solid](https://www.techllyn.com/wp-content/uploads/2020/09/9-scaled.jpg) | ![N|Solid](https://www.techllyn.com/wp-content/uploads/2020/09/2-scaled.jpg) |
 
  | Screenshot 3     | Screenshot 4    |
 |------------|-------------|
